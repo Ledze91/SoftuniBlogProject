@@ -56,7 +56,7 @@ table {
     text-align: center;
 }
 header{
-    height: 980px;
+    height: 650px;
 }
 button, a {
     text-decoration: none;
@@ -130,7 +130,7 @@ button {
 }
 .background {
     width: 97.5%;
-    height: 650px;
+    height: 550px;
     margin: 20px;
     display: inline-block;
 }

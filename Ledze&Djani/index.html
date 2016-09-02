@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/style-login-form.css" type="text/css">
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="scripts/RegisterAndLogin.js"></script>
+
+</head>
+<header>
+
+    <!--TITLE-->
+
+    <div class="blog-title">
+        
+    </div>
+</header>
+<body background="img/Fitness-Background-5.jpg" style="background-size: cover">
+
+<!--LOGIN FORM-->
+
+<div class="divTitleLogin">
+    <div id="infoBox" onclick="$(this).hide()"></div>
+    <div id="errorBox" onclick="$(this).hide()"></div>
+    <h1 class="loginTitle">Вход</h1>
+</div>
+<div class="loginForm">
+    <form id="formLogin">
+        <span class="sectionsForm"> ПОТРЕБИТЕЛСКО ИМЕ: </span>
+        <input type="text" id="loginUser"  style="font-size: 15pt"><br>
+        <br>
+        <span  class="sectionsForm" id="password">ПАРОЛА:</span>
+        <input type="password" id="loginPass"  style="font-size: 15pt" width="35pt"><br>
+
+        <span class="signInText" class="sectionsForm"><a href="register-form.html"> РЕГИСТРАЦИЯ </a> </span>
+        <input type="button" onclick="login()" value="Вход" style="font-size: 20pt" width="25pt">
+    </form>
+</div>
+</body>
+</html>

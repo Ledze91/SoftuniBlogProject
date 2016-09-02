@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="styles/style-register-form.css" type="text/css">
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="scripts/RegisterAndLogin.js"></script>
+</head>
+<header>
+
+    <!--TITLE-->
+
+    <div class="blog-title">
+        <h1><a href="index.html"> Обратно към Начало</a> </h1>
+    </div>
+</header>
+<body background="img/Fitness-Background-5.jpg" style="background-size: cover">
+
+<div class=" divRegisterTitle">
+    <div id="infoBox" onclick="$(this).hide()"></div>
+    <div id="errorBox" onclick="$(this).hide()"></div>
+    <h1 class="regiserTitle"> Регистрация </h1>
+</div>
+
+<!--REGISTER FORM-->
+
+<div class="registerForm">
+    <form id="formRegister">
+        <span style="padding: 0 102px;" class="sectionsForm" id="namefull">Име:</span>
+        <input type="text" id="fullName" required = "true"  style="font-size: 15pt"> <br><br>
+        <span style="padding: 0 102px;" class="sectionsForm " id="user"> Потребител:</span>
+        <input type="text" id="userName"  required = "true"  style="font-size: 15pt"> <br><br>
+        <span style="padding: 0 102px;" class="sectionsForm ">Парола:</span>
+        <input type="password" id="passInput" required = "true" style="font-size: 15pt"> <br><br>
+        <span style="padding: 0 20px;" class="sectionsForm">Потвърди Прола:</span>
+        <input type="password" id="passwordConfirm" required = "true" style="font-size: 15pt"> <br><br>
+
+        <!--LOGIN-SING IN BUTTONS-->
+
+        <span class="logInText" class="sectionsForm"><a href="login-form.html"> Вход </a> </span>
+        <input type="button" onclick="register()" value="Регистрация" style="font-size: 20pt" width="25pt">
+    </form>
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" http-equiv="Content-Type">
+    <title>Всичко за здравословния начин на живот</title>
+    <script src="scripts/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" type="text/css">
+</head>
+
+<body>
+<header style="background: url(img/Fitness-Man.jpg); background-size: 100%; background-repeat: no-repeat">
+    <br><br>
+    <div class="background">
+        <div class="wrapper">
+            <div class="login-button" style="outline: 0">
+                <a href="index.html">ИЗХОД</a><br><br>
+
+            </div>
+        </div>
+    </div>
+    <div class="buttonsContent">
+        <a href="home-page.html">НАЧАЛО </a>
+        <a href="Eating-page.html">ХРАНЕНЕ</a>
+        <a href="Exercises-page.html">ТРЕНИРОВКИ</a>
+        <a href="Advices-page.html">ОТЗИВИ</a>
+    </div>
+</header>
+    <form method='post'>
+        Име : <input type='text' name='name' id='name' /><br />
+
+        Email: <input type='text' name='email' id='email' /><br />
+
+        Коментар:<br />
+        <textarea name='comment' id='comment'></textarea><br />
+
+        <input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+        <input type='submit' value='Submit'  />
+    </form>
+
+   
+</body>
+</html>
+
+

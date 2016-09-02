@@ -1,0 +1,88 @@
+body{
+    background: #2F2E33;
+
+}
+
+header{
+    background:#4C4C4C;;
+    height: auto;
+    width: 101.45%;
+    margin: -20px;
+}
+.buttonsContent{
+    margin: -25px auto;
+    display: block;
+    padding: 10px;
+    background: #7F7E7E;
+    font-size: 20px;
+    height: auto;
+    text-align: center;
+
+
+}
+.buttonsContent a {
+    margin: 30px;
+
+}
+.buttonsContent a:hover {
+    border-bottom: 1px solid #fff;
+    padding: -3px;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+
+}
+a:hover{
+    border-bottom: 1px solid #fff;
+}
+.buttonHome{
+    border-bottom: 1px solid #fff;
+    font-size:22px
+}
+.blog-title{
+    color: white;
+    margin: 100px auto;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid #fff;
+    width: 75%;
+    font-family: Lucida Sans Unicode;
+
+}
+.page-title{
+    color: white;
+    margin: 40px auto;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    width: 75%;
+}
+.image{
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+}
+.scrollToTop{
+    width:100px;
+    height:130px;
+    padding:10px;
+    text-align:center;
+    background: purple;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position:fixed;
+    top:75px;
+    right:40px;
+    display:none;
+    background:url('../img/up-arrow-circle-hi.png') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+
